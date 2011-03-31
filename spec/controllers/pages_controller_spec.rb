@@ -63,5 +63,6 @@ describe "GET 'help'" do
                                     :content => @base_title + " | Help")
     end
   end
-end
+
+  end
 
