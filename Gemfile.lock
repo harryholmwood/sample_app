@@ -102,12 +102,12 @@ DEPENDENCIES
   annotate-models
   autotest
   autotest-rails-pure
-  factory_girl_rails
+  factory_girl_rails (= 1.0)
   gravatar_image_tag
   rails (= 3.0.3)
   rspec (= 2.1.0)
   rspec-rails (= 2.1.0)
-  spork
+  spork (= 0.8.4)
   sqlite3-ruby (= 1.2.5)
   test_notifier
   webrat (= 0.7.1)
