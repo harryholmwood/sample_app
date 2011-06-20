@@ -176,4 +176,14 @@ padding: 5px;
 #error_explanation ul li {
 font-size: 12px;
 list-style: square;
+}
+
+ul.users {
+    margin-top:1em;
+}
+
+ul.users li {
+    margin-top:1em;
+    list-style: none;
+}
 
