@@ -8,6 +8,8 @@ gem 'gravatar_image_tag'
 group :development do
   gem 'rspec-rails', '2.1.0'
   gem 'annotate-models'
+  gem 'faker', '0.3.1'
+  gem 'will_paginate', '3.0.pre'
 end
 group :test do
   gem 'rspec', '2.1.0'
@@ -17,5 +19,6 @@ group :test do
   gem 'autotest'
   gem 'autotest-rails-pure'
   gem 'test_notifier'
+  gem 'will_paginate', '3.0.pre'
 end
 
