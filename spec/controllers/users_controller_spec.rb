@@ -278,7 +278,7 @@ describe UsersController do
       flash[:success].should =~ /updated/i      
     end
   end
- end      35.times { Factory(:micropost, :user => @user, :content=>"foo") }
+ end     
 
   describe "authentication of edit/update actions" do
 
