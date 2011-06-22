@@ -45,6 +45,11 @@ class User < ActiveRecord::Base
 #    return user if user.has_password?(submitted_password)
 #  end
 
+  def feed
+#    self.microposts  # could just write 'microposts'
+    Micropost.where("user_id = ?", id)
+  end
+
 
 class << self
   def authenticate(email, submitted_password)
